@@ -6,6 +6,7 @@ public class Fibonacci {
     public void sequencialFibonacci(){
         System.out.println("Números de termos: ");
         n = sc.nextInt();
+        
         System.out.printf("Lista dos %d primeiros números de Fibonacci%n", n);
         while (i < n){
             System.out.printf("%d, %d, ", a, b);
